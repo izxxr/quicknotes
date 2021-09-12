@@ -1,0 +1,102 @@
+body {
+    background-color: #e6e7f0;
+}
+
+.nav-link {
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link:hover {
+    background-color: #acacad;
+    color: white !important;
+}
+
+.qn-btn {
+    transition: all 167ms ease-in-out;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e7f0;
+    outline: none;
+    font-family: 'Poppins';
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+}
+
+.qn-btn-primary {
+    background-color: #6666be;
+}
+
+.qn-btn-primary:hover {
+    background-color: #4f4fad;
+}
+
+.qn-btn-primary:active {
+    background-color: #4949a1;
+}
+
+.qn-btn-danger {
+    background-color: rgb(255, 88, 88);
+}
+
+.qn-btn-danger:hover {
+    background-color: rgb(250, 68, 68);
+}
+
+.qn-btn-danger:active {
+    background-color: rgb(252, 41, 41);
+
+}
+
+
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.note {
+    background-color: #dee0ee;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:grey;
+    border-style: solid;
+    width: 300px;
+    height: 310px;
+    padding: 10px;
+}
+
+.note-title {
+    font-size: 24px;
+}
+
+.qn-input {
+    width: 450px;
+    background-color: #e6e7f0;
+    outline: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: none;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Overriding the bs stuff  */
+.btn {
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
